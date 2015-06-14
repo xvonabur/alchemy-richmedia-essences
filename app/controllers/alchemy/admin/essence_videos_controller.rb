@@ -17,6 +17,7 @@ module Alchemy
       params.require(:essence_video).permit(
         :width,
         :height,
+        :bitrate,
         :allow_fullscreen,
         :auto_play,
         :show_navigation,

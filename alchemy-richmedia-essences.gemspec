@@ -17,4 +17,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_runtime_dependency 'alchemy_cms', ['>= 3.0.0.rc4']
+  gem.add_runtime_dependency 'rlovelett-ffmpeg', ['>= 1.1.0']
 end
